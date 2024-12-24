@@ -12,8 +12,19 @@ npm create vite@latest
 # Select a framework: React
 # Select a variant: JavaScript
 ```
-
+Navigate to the vite app and install the depadencies 
 ```bash
 cd your-app-name
 npm install
 ```
+## 2. Tailwind installation 
+Enter these commands in the terminal and hit enter 
+```
+npm install tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
+Now,there will be tailwind.config.js file in the root folder of the project director edit it to this 
+// Example code in JavaScript
+const greet = () => {
+  console.log('Hello, world!');
+};
