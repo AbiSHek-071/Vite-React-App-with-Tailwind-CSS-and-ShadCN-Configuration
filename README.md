@@ -8,10 +8,13 @@ Run the following commands to create a Vite React app:
 
 ```bash
 npm create vite@latest
+```
+```
 # Package name: your-app-name
 # Select a framework: React
 # Select a variant: JavaScript
 ```
+
 Navigate to the vite app and install the depadencies 
 ```bash
 cd your-app-name
