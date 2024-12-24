@@ -24,8 +24,9 @@ npm install tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 Now,there will be tailwind.config.js file in the root folder of the project director edit it to this 
-```
-const greet = () => {
-  console.log('Hello, world!');
-};
+
+```js
+function myFunction () {
+   return true;
+}
 ```
