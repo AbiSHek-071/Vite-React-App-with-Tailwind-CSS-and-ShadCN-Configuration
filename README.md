@@ -26,7 +26,24 @@ npx tailwindcss init -p
 Now,there will be tailwind.config.js file in the root folder of the project director edit it to this 
 
 ```js
-function myFunction () {
-   return true;
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './index.html',
+    './src/**/*.{js,jsx,ts,tsx}', // This makes sure Tailwind CSS can process all your React components
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 }
+```
+
+Like that there will be index.css file inside the src folder edit it and add this at the top
+
+```css
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 ```
